@@ -25,10 +25,23 @@ pd.read_csv(r"C:\Users\DELL\Desktop\Book13.csv")
 pd.read_csv(r"C:\Users\DELL\Desktop\Book14.txt")
 
 
-# In[14]:
+# In[18]:
 
 
 import os
+os.getcwd()
+
+
+# In[19]:
+
+
+pd.read_csv("https://raw.githubusercontent.com/dsrscientist/DSData/master/Advertising.csv")
+
+
+# In[20]:
+
+
+pd.read_csv("https://raw.githubusercontent.com/dsrscientist/DSData/master/Concrete_Data.csv")
 
 
 # In[ ]:
